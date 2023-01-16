@@ -1,9 +1,14 @@
-.center-text {
+.center-align {
   text-align: center;
 }
 
-.left-text {
+.left-align {
   text-align: left;
+}
+
+.margins {
+  display: flex;
+  justify-content: center;
 }
 
 /* creates new line without needed the <br> tag */
