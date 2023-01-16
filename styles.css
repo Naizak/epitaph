@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.left-text {
+  text-align: left;
+}
+
 /* creates new line without needed the <br> tag */
 .new-line {
   white-space: pre-line;
