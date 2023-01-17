@@ -5,13 +5,42 @@
 .left-align {
   text-align: left;
 }
-
+/* keeps whole letter div centered */
 .margins {
   display: flex;
   justify-content: center;
 }
+/* keeps text within bg-image */
+.padding {
+  padding-top: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
-/* creates new line without needed the <br> tag */
-/* .new-line {
-  white-space: pre-line;
+.bg-image {
+  background-image: url("images/background-paper.png");
+  background-size: 100%;
+}
+
+/* @font-face {
+  font-family: "Citadel-Script";
+  src: url("font-styles/Citadel-Script-Std-Regular.otf") format("truetype");
 } */
+
+:root {
+  --font-name: CursiveSerif;
+}
+
+@font-face {
+  font-family: "CursiveSerif";
+  src: url("font-styles/CursiveSerif.ttf") format("truetype");
+}
+
+.font {
+  font-family: "CursiveSerif", sans-serif;
+  font-size: 100%;
+}
+
+.corners {
+  border-radius: 15px;
+}
