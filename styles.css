@@ -27,12 +27,20 @@
   src: url("font-styles/Citadel-Script-Std-Regular.otf") format("truetype");
 } */
 
+:root {
+  --font-name: CursiveSerif;
+}
+
 @font-face {
-  font-family: "Bulgatti";
-  src: url("font-styles/Bulgatti.ttf") format("truetype");
+  font-family: "CursiveSerif";
+  src: url("font-styles/CursiveSerif.ttf") format("truetype");
 }
 
 .font {
-  font-family: "Bulgatti", sans-serif;
+  font-family: "CursiveSerif", sans-serif;
   font-size: 100%;
+}
+
+.corners {
+  border-radius: 15px;
 }
