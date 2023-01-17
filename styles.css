@@ -5,13 +5,27 @@
 .left-align {
   text-align: left;
 }
-
+/* keeps whole letter div centered */
 .margins {
   display: flex;
   justify-content: center;
 }
+/* keeps text within bg-image */
+.padding {
+  padding: 150px;
+}
 
-/* creates new line without needed the <br> tag */
-/* .new-line {
-  white-space: pre-line;
-} */
+.bg-image {
+  background-image: url("images/background-paper.png");
+  background-size: 100%;
+}
+
+@font-face {
+  font-family: "Citadel-Script";
+  src: url("font-styles/Citadel-Script-Std-Regular.otf") format("truetype");
+}
+
+.font {
+  font-family: "Citadel-Script", sans-serif;
+  font-size: 164%;
+}
