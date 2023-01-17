@@ -12,7 +12,9 @@
 }
 /* keeps text within bg-image */
 .padding {
-  padding: 150px;
+  padding-top: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .bg-image {
