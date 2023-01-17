@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: "Citadel-Script";
-  src: url("font-styles/Citadel-Script-Std-Regular.otf") format("truetype");
+  /* src: url("font-styles/Citadel-Script-Std-Regular.otf") format("truetype"); */
 }
 
 .font {
