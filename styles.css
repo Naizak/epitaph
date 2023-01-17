@@ -22,12 +22,17 @@
   background-size: 100%;
 }
 
-@font-face {
+/* @font-face {
   font-family: "Citadel-Script";
-  /* src: url("font-styles/Citadel-Script-Std-Regular.otf") format("truetype"); */
+  src: url("font-styles/Citadel-Script-Std-Regular.otf") format("truetype");
+} */
+
+@font-face {
+  font-family: "Bulgatti";
+  src: url("font-styles/Bulgatti.ttf") format("truetype");
 }
 
 .font {
-  font-family: "Citadel-Script", sans-serif;
-  font-size: 164%;
+  font-family: "Bulgatti", sans-serif;
+  font-size: 100%;
 }
