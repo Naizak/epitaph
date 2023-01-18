@@ -4,13 +4,6 @@ body {
   min-height: 100vh;
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
-  /* iPhone X and newer */
-  .bg-image {
-    background-size: contain;
-  }
-}
-
 .center-align {
   text-align: center;
 }
@@ -37,10 +30,12 @@ body {
   background-position: top center;
 }
 
-/* @font-face {
-  font-family: "Citadel-Script";
-  src: url("font-styles/Citadel-Script-Std-Regular.otf") format("truetype");
-} */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  /* iPhone X and newer */
+  .bg-image {
+    background-size: contain;
+  }
+}
 
 :root {
   --font-name: CursiveSerif;
