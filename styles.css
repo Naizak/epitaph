@@ -27,6 +27,7 @@ body {
   background-image: url("images/background-paper.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: top center;
 }
 
 /* @font-face {
