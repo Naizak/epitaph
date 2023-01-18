@@ -26,6 +26,7 @@ body {
 .bg-image {
   background-image: url("images/background-paper.png");
   background-size: 1000px;
+  background-repeat: no-repeat;
 }
 
 /* @font-face {
