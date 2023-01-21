@@ -25,13 +25,17 @@ body {
 
 .bg-image {
   background-image: url("images/background-paper.png");
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
 }
 
-/* @font-face {
-  font-family: "Citadel-Script";
-  src: url("font-styles/Citadel-Script-Std-Regular.otf") format("truetype");
-} */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  /* iPhone X and newer */
+  .bg-image {
+    background-size: contain;
+  }
+}
 
 :root {
   --font-name: CursiveSerif;
